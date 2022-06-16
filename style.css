@@ -38,6 +38,23 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position: right;
 }
+.heam{
+    box-shadow:5px 10px 10px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    border-left: 10px solid ;
+    border-image:linear-gradient(180deg, red, white, green);
+    border-image-slice: 1;
+}
 .jkl{
-    justify-content:left;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer{
+    margin-bottom: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100px;
+    padding: 60px;
 }
