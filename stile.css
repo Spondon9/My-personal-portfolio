@@ -2,3 +2,51 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+section{
+    display: flex;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat ;
+    margin-bottom: 3cm;
+}
+.beg{
+   width: 50% ; 
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.beg img{
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    padding:0.5cm 1cm;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    background:linear-gradient(lightsalmon, tomato) ;
+}
+.dream{
+    margin-bottom: 3cm;
+}
+.es{
+    border: 1px solid transparent ;
+    box-shadow:  5px 5px 5px 5px ;
+    margin-bottom: 80px;
+    border:7px solid;
+    border-image: linear-gradient(red,orange,yellow,green,cyan,blue,violet);
+    border-image-slice: 1;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
